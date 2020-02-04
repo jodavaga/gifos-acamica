@@ -1,4 +1,7 @@
 $primary-color: #F7C9F3;
+$primary-color-hover: #E6BBE2;
+$secondary-button-color: #4180F6;
+$secondary-button-color-hover: #284F99;
 $secondary-color: #110038;
 $shadow-color: #997D97;
 $gray-color: #B4B4B4;
@@ -11,4 +14,10 @@ $mobile-width: 360px;
 @mixin gradient {
     background: $primary-color;
     background: linear-gradient(270deg, $primary-color 0%, #4180F6 100%);
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
